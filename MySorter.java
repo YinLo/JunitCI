@@ -1,3 +1,5 @@
+package ntou.cs.sorter;
+
 public class MySorter
 {
 	public void sort (double[] d)
