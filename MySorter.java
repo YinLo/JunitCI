@@ -1,3 +1,5 @@
+package ntou.cs.sorter;
+
 public class MySorter
 {
 	public void sort (double[] d)
@@ -6,7 +8,7 @@ public class MySorter
 		{
 			for (int j = 0; j < d.length - i - 1; j++)
 			{
-				if (Math.abs(d[j]) > Math.abs(d[j + 1]))
+				if (d[j] > d[j + 1])
 				{
 					swap(d, j, j + 1);
 				}
